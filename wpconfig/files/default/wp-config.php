@@ -16,8 +16,8 @@
 
 define('WP_REDIS_HOST', 'wordpress.tnqebl.0001.aps1.cache.amazonaws.com');
  
-define('WP_HOME','http://ec2-52-66-111-63.ap-south-1.compute.amazonaws.com/');
-define('WP_SITEURL','http://ec2-52-66-111-63.ap-south-1.compute.amazonaws.com/');
+define('WP_HOME','http://wordpress-1792579943.ap-south-1.elb.amazonaws.com');
+define('WP_SITEURL','http://wordpress-1792579943.ap-south-1.elb.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -30,7 +30,7 @@ define('DB_USER', 'wordpress');
 define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
-define('DB_HOST', 'wordpress.cgm3xanna6nr.ap-south-1.rds.amazonaws.com:3306');
+define('DB_HOST', 'wordpress.cgm3xanna6nr.ap-south-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
